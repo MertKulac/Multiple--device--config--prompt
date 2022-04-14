@@ -1,4 +1,4 @@
-# Multiple--device--config--prompt
+# Multiple--device--config--prompt--threading
 The list of devices is inserted in a .txt.
 
 ![image](https://user-images.githubusercontent.com/96883175/163340811-b75979fa-c40b-4276-ba01-0f19b6fb99e6.png)
