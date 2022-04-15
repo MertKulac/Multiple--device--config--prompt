@@ -36,10 +36,10 @@ def _ssh_(nodeip):
     print(hostname_fnk)
     cisco_connect.send_command_timing("configure terminal")
     print("entered config mode")
-    cisco_connect.send_command_timing("logging 10.222.246.12")
+    cisco_connect.send_command_timing("logging 192.168.0.X")
     cisco_connect.send_command_timing("exit")
 
-    data_to_parse = cisco_connect.send_command_timing('show run | i 10.222.246.12')
+    data_to_parse = cisco_connect.send_command_timing('show run | i 192.168.0.X')
     output = ''.join(data_to_parse)
     output2 = output.splitlines()
     output3 = ''.join(output2)
